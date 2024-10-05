@@ -1,0 +1,77 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="eye.jpg">
+<head>
+<style>
+body{
+  background-color: black;
+  color:white;
+  font-family: Arial;
+  margin: 0;
+  }
+  .nav{
+  top: 0;
+  border-bottom: 2px solid #ccc;
+overflow:auto;
+bottom: 30px;
+
+  }
+  .nav a{
+  cursor:pointer;
+  color: white;
+  text-decoration:none;
+  float:left;
+  padding: 21px;
+  font-size: 18px;
+  }
+  .nav a:hover{color: #848482;}
+  
+ .imag{
+   margin: 4% auto;   
+   width: 610px;
+   height: auto;
+   overflow:auto;
+   
+ }
+ .imag img{
+   float:left;
+   margin:9px;
+   border: 1px solid #ccc;
+   cursor:pointer;
+   width: 220px;
+   border-radius: 2px;
+   height: 200px;
+   }
+  .imag img:hover{opacity: 0.7;}
+  ::-webkit-scrollbar{
+    width: 6px;
+  }
+  ::-webkit-scrollbar-thumb {
+  background: #E5E4E2	;
+}
+@media only screen and (max-width:600px){
+ .imag{
+ width: 450px;
+ }
+ .imag img{width: 190px; height: 170px;}
+}
+
+</style>
+<title>Homepage</title>
+</head>
+<body>
+<div class="nav">
+<a>Home</a>
+</div>
+<div class="imag">
+<img src="forest.jpg">
+<img src="park.jpg">
+<img src="lake.jpg">
+<img src="train.jpg">
+<img src="house.jpg">
+<img src="school.jpg">
+<img src="work.jpg">
+<img src="end.jpg">
+</div>
+</body>
+</html>
